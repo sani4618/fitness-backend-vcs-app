@@ -85,9 +85,9 @@ DATABASES = {
 'ENGINE': 'djongo',
 "CLIENT": {
 "name": "fitness_db",
-"host": "mongodb+srv://sanijoseph2018:sanijoseph2018@cluster0.yx9hq3y.mongodb.net/?retryWrites=true&w=majority",
-"username": "sanijoseph2018",
-"password": "sanijoseph2018",
+"host": "mongodb+srv://josephsanijoseph:josephsanijoseph@cluster0.4fcbux8.mongodb.net/?retryWrites=true&w=majority",
+"username": "josephsanijoseph",
+"password": "josephsanijoseph",
 "authMechanism": "SCRAM-SHA-1",
 },
  }

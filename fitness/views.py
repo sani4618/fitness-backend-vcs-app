@@ -5,6 +5,15 @@ from fitness.serializers import FitnessSerializers
 from fitness.models import Fitnessapp 
 import json
 
+@csrf_exempt
+def viewfitnessreg(request):
+    if request.method=="GET":
+        fitness_list=Fitnessapp.objects.all()
+        fitnessappSerializer=FitnessSerializers(fitness_list,many=True)
+        return HttpResponse(json.dumps(fitnessappSerializer.data))
+        
+
+
 
 @csrf_exempt
 def newregister(request):

@@ -11,3 +11,6 @@ class Fitnessapp(models.Model):
         email=models.CharField(default="",max_length=50)
         password=models.CharField(default="",max_length=50)
         confirmPassword=models.CharField(default="",max_length=50)
+
+
+        
